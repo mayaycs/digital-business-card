@@ -16,6 +16,9 @@
   <!-- Hidden Checkbox for CSS-Only Theme Toggle -->
   <input type="checkbox" id="theme-toggle" class="theme-toggle-input">
 
+  <!-- Hidden Checkbox for Mobile Menu Toggle -->
+  <input type="checkbox" id="menu-toggle" class="menu-toggle-input">
+
   <div class="site-wrapper">
     
 <!-- Top Navigation Bar - Full Width -->
@@ -31,11 +34,19 @@
           <a href="#contact">Contact</a>
         </nav>
 
-        <div class="theme-switch-wrapper">
-          <label for="theme-toggle" class="theme-btn" title="Toggle Theme" aria-label="Toggle Dark Mode">
-            <span class="sun-icon">☀️</span>
-            <span class="moon-icon">🌙</span>
+        <div class="nav-right">
+          <label for="menu-toggle" class="hamburger" title="Toggle Menu" aria-label="Toggle Mobile Menu">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
           </label>
+
+          <div class="theme-switch-wrapper">
+            <label for="theme-toggle" class="theme-btn" title="Toggle Theme" aria-label="Toggle Dark Mode">
+              <span class="sun-icon">☀️</span>
+              <span class="moon-icon">🌙</span>
+            </label>
+          </div>
         </div>
       </div>
     </header>
